@@ -75,6 +75,25 @@ Using Elbow curve, I consider n=3.
 
 ![image](https://user-images.githubusercontent.com/67642255/142856337-00a21841-aa81-435b-b9d3-468f8c1567af.png)    
 
+Then, as we see in this clustering, the cluster with label=2 corresponds, to customers with:   
+
+- bigger account balance
+- bigger amount of transaction 
+
+![image](https://user-images.githubusercontent.com/67642255/142857178-206ce98b-d6cc-4c83-8b87-c1b8536a00b1.png)  
+
+
+# DBSCAN
+As a second method, I used DBSCAN. 
+I used KNN to specify the value of epsilon:  
+
+![image](https://user-images.githubusercontent.com/67642255/142857063-cd4557a6-a030-4515-aea1-0c157baea075.png)  
+
+DBSCAN on datas resulted in following clustering:
+
+![image](https://user-images.githubusercontent.com/67642255/142857340-0fa13c12-c09d-42f6-aa05-167cb0bb33d6.png)  
+
+Clustering wasn't successful in this method. 
 
 
 
