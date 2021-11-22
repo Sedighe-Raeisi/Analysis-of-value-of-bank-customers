@@ -49,8 +49,22 @@ Then, the boxplot become:
 
 ![image](https://user-images.githubusercontent.com/67642255/142836023-69d453f4-1500-4108-bb14-7e6745c716b9.png)   
 
+# Kmean
+I used the elbow curve of inertia, to specify the number of clusters: 
+
+![image](https://user-images.githubusercontent.com/67642255/142836468-bd1a4f2b-50c4-4854-887f-aa28b39a1b72.png)
+  
+  
+For clustering kmeans with n=6, we clustered the data. I used the scatter matrix to visualize it: 
+
+![image](https://user-images.githubusercontent.com/67642255/142836735-8b8e65a3-2e29-4a32-958a-981845b2a4fd.png)   
 
 
+clusters correspond the label=5,6 reperesnt cusstomers, with :
+- longer active time
+- bigger account balance
+- bigger amount of transaction 
+- greater number of transaction. 
 
 
 
