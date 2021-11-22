@@ -36,28 +36,28 @@ I scaled active time duration using min-max scaling.
 I made a dataframe from all features.  
 Then, I used scatter_matrix to visualize the features.   
 
-![image](https://user-images.githubusercontent.com/67642255/142835359-83dadd65-ed2f-4d70-a99c-1e94ca6350ee.png)  
+![image](https://user-images.githubusercontent.com/67642255/142855233-7a43cdfa-5f66-4413-b74d-349533669999.png) 
 
 # Drop Outliers
 
 I used box plot to show the existence of outliers:  
 
-![image](https://user-images.githubusercontent.com/67642255/142835591-535eb0b4-175a-4ee8-b448-530637ba9aaa.png)   
+![image](https://user-images.githubusercontent.com/67642255/142855346-de9ca099-2255-451b-a0ca-b44f2ca59613.png)   
 
 I used a standard score. Then I dropped those data that correspond to standard scores greater than 3. 
 Then, the boxplot become:  
 
-![image](https://user-images.githubusercontent.com/67642255/142836023-69d453f4-1500-4108-bb14-7e6745c716b9.png)   
+![image](https://user-images.githubusercontent.com/67642255/142855428-670b78ee-2b44-4ecc-9470-3ccbf1b5929f.png)   
 
 # Kmean
 I used the elbow curve of inertia, to specify the number of clusters: 
 
-![image](https://user-images.githubusercontent.com/67642255/142836468-bd1a4f2b-50c4-4854-887f-aa28b39a1b72.png)
+![image](https://user-images.githubusercontent.com/67642255/142855497-b40d0a8f-c873-49b3-8184-7f5a4aa07f75.png)
   
   
 For clustering kmeans with n=6, we clustered the data. I used the scatter matrix to visualize it: 
 
-![image](https://user-images.githubusercontent.com/67642255/142836735-8b8e65a3-2e29-4a32-958a-981845b2a4fd.png)   
+![image](https://user-images.githubusercontent.com/67642255/142855678-125a28ba-399f-4140-9138-1a93377a2f28.png)     
 
 
 clusters correspond the label=5,6 reperesnt cusstomers, with :
@@ -65,6 +65,17 @@ clusters correspond the label=5,6 reperesnt cusstomers, with :
 - bigger account balance
 - bigger amount of transaction 
 - greater number of transaction. 
+
+![image](https://user-images.githubusercontent.com/67642255/142855600-25f42098-e2cf-40e2-b0c8-4143b00668a0.png)  
+
+
+# Second Kmeans
+I did a second kmeans on clusters with label=5,6.
+Using Elbow curve, I consider n=3.   
+
+![image](https://user-images.githubusercontent.com/67642255/142856337-00a21841-aa81-435b-b9d3-468f8c1567af.png)    
+
+
 
 
 
